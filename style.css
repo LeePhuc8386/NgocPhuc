@@ -1,0 +1,241 @@
+* {
+    margin: 0;
+    padding: 0;
+    box-sizing: border-box;
+    font-family: "Lato", sans-serif;
+}
+.navigation {
+    background-color: #f3d2bf;
+    display: flex;
+    justify-content: space-between;
+    position: fixed;
+    top: 0;
+    width: 100%;
+}
+.nav-item {
+    color: black;
+    text-decoration: none;
+    padding: 12px 24px;
+    display: inline-block;
+    text-transform: uppercase;
+    font-size: 15px;
+}
+.nav-item:hover {
+    background-color: #e9780fe5;
+    font-size: larger;
+}
+
+.nav-search {
+    color: black;
+    display: flex;
+    align-items: center;
+    padding: 0 20px;
+    cursor: pointer;
+}
+.nav-search:hover {
+    background-color: whitesmoke;
+}
+.slideshow {
+    margin-top: 42px;
+}
+.slides {
+    width: 100%;
+}
+
+.about {
+    max-width: 768px;
+    padding: 0 20px;
+    margin: 0 auto;
+}
+.title {
+    margin-top: 60px;
+    font-weight: 400;
+    text-transform: uppercase;
+    letter-spacing: 5px;
+    text-align: center;
+    font-family: 'Segoe UI', sans-serif;
+    font-size: 30px;
+}
+.subtitle {
+    color: gray;
+    font-weight: 400;
+    font-size: 15px;
+    font-style: italic;
+    margin-top: 20px;
+    text-align: center;
+}
+.description {
+    font-size: 16px;
+    line-height: 1.5;
+    text-align: justify;
+    margin-top: 20px;
+    margin-left:50px;
+}
+
+
+.members {
+    max-width: 100%;
+    margin: 0 auto;
+    padding-bottom: 100px;
+}
+.member-container {
+    margin-top: 32px;
+    display: flex;
+    justify-content: space-around;
+    background-image: url(https://th.bing.com/th/id/R.268791c481fe44a5a308258ef65bd807?rik=vfnfoSFyUIT0yg&riu=http%3a%2f%2fwww.pisymphony.com%2fBLOG%2fGRASS_BURN%2fdouble_fire_line.jpg&ehk=hbjUY18e70AfgvjpD01XG9K59%2fPDDYb1fRXG%2bwg0CVc%3d&risl=&pid=ImgRaw&r=0);
+}
+
+
+
+.contact {
+    max-width: 768px;
+    padding: 0 20px;
+    margin: 0 auto;
+    padding-bottom: 100px;
+}
+.contact-container {
+    margin-top: 32px;
+    display: flex;
+    justify-content: space-between;
+}
+.contact-item {
+    width: 48%;
+}
+.contact-container li {
+    list-style: none;
+    background-image: url('./icons/location.svg');
+    background-repeat: no-repeat;
+    background-position: left center;
+    background-size: 20px;
+    padding: 4px 30px;
+}
+.contact-container li:nth-child(2) {
+    background-image: url('./icons/phone.svg');
+}
+.contact-container li:nth-child(3) {
+    background-image: url('./icons/mail.svg');
+}
+
+.input-container {
+    display: flex;
+}
+.contact-container input {
+    width: 100%;
+    padding: 10px 12px;
+    border: 1px solid gray;
+    margin-top: 8px;
+    font-size: 16px;
+}
+.contact-container button {
+    margin-top: 10px;
+    padding: 10px 16px;
+    background-color: black;
+    color: white;
+    border: none;
+    text-transform: uppercase;
+    float: right;
+}
+.contact-container button:hover {
+    background-color: #cccccc;
+    color: black;
+    cursor: pointer;
+}
+.map-image {
+    width: 100%;
+    height: 1100px;
+}
+
+.footer {
+    height: 160px;
+}
+.social-media {
+    margin-top: 80px;
+    display: flex;
+    justify-content: center;
+}
+.social-link {
+    margin: 0 2px;
+    color: gray;
+}
+.social-link:hover {
+    opacity: 0.7;
+}
+.footer-author {
+    text-align: center;
+    color: gray;
+    font-size: 15px;
+    font-weight: 400;
+    margin-top: 6px;
+}
+.member-item {
+    align-items: center;
+    margin-bottom: 50px;
+    margin-top: 50px;
+}
+.member-item img {
+    width: 500px;
+    border-radius: 4px;
+
+}
+.watch {
+    text-align: center;
+}
+.watch-video {
+    display: flex;
+    justify-content: space-between;
+}
+.member-item p {
+    margin-left: 200px;
+    font-size: 20px;
+}
+.learderboard {
+    text-align: center;
+    display:flex;
+    justify-content: space-between;
+    background-image: url(https://th.bing.com/th/id/R.a9e50ad84c996646762cd7c8a8d7eb18?rik=MbtllLMFQZettA&riu=http%3a%2f%2fwww.pixelstalk.net%2fwp-content%2fuploads%2f2016%2f09%2fAll-White-Background-HD.jpg&ehk=I96ZlwmQJl%2btAlc5FarSKH8kk4SzL8nQQuOX4lnAoQE%3d&risl=&pid=ImgRaw&r=0);
+    background-position: center;
+}
+.ad img {
+    margin-top: 0%;
+    border-radius: 4%;
+    width: 400px;
+    height: 400px;
+}
+.ad {
+    background-color: #cccccc;
+    margin-top: 10px;
+}
+.document p {
+    text-align: center;
+    font-size: 30px;
+    font-weight: 100;
+    text-transform: lowercase;
+}
+.welcome img {
+    width: 50%;
+
+}
+.welcome {
+    display: inline-block;
+}
+.link {
+    display: flex;
+    text-align:center;
+    flex-direction: column;
+}
+.link a {
+    font-size: 20px;
+    margin-top: 20px;
+    margin-bottom: 5px;
+}
+.link p {
+    font-weight: 900;
+    font-size: large;
+}
+.member-item a:hover {
+    color: chocolate;
+
+}
+.link a:hover {
+    color: chocolate;
+}
